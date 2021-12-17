@@ -1,0 +1,27 @@
+Selenium Architecture
+====================================================================
+Selenium automates browser. Selenium is nothing but a collection of libraries or collections of
+API.
+
+JSON Wire Protocol
+---------------------------------------
+All implementations of WebDriver that communicate with the browser, or a RemoteWebDriver server, use
+a common wire protocol. This wire protocol defines a RESTful web services using JSON over HTTP.
+
+Workflow
+-----------------------------------------------------------------------------------
+Java								  ChromeDriver					ChromeDriver
+C#									  GeckoDriver     ----->		GeckoDriver
+Python   --> JSON Wire Protocol -->   IEDriver		  <-----		IEDriver
+Ruby								  SafariDriver					SafariDriver
+
+
+Selenium Grid
+---------------------------------------------------
+- Selenium grid is the concept which allow you to run your test cases on multiple machines and
+  multiple browsers.
+  
+Hub and Nodes
+-----------------------------------------------
+Hub - The central machine which redirect the command to the respective nodes.
+Nodes - The actual machine where the test will be executed . (Mac, Windows, Linux, Devices...)
