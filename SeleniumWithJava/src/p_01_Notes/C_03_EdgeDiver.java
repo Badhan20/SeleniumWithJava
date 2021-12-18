@@ -1,4 +1,4 @@
-package p1_Notes;
+package p_01_Notes;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
