@@ -1,0 +1,32 @@
+Locators in Selenium
+=====================================================================================
+Locator
+-------------------------------------------------
+Locator is a technique to find any specific element on a web page.
+
+Types of Locators in Selenium
+---------------------------------
+Direct Locators: Do not need any custom function or expression. Can have directly from the web page.
+Use on the static web page. --> ID, Name, Class Name.
+
+Indirect Locators: Need some custom function or expression. Use on the dynamic web pages. --> XPath,
+CSS.
+
+Also have 3 additional locators as: LinkText, PartialLinkText (Only applicable for links), Tag Name.
+
+There are total 8 locators in Selenium: 
+						- ID
+						- Name
+					    - Class Name
+						- XPath
+						- CSS
+						- LinkText
+						- PartialLinkText
+						- TagName
+						
+****FACTS*****
+1. Direct Locators are always faster but limited to static web elements only.
+2. For dynamic web elements: XPath, CSS
+
+Rank Preferences: ID, Name, Class Name, XPath, CSS, LinkText, PartialLinkText, TagName
+					

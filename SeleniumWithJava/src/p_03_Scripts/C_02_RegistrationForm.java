@@ -1,4 +1,4 @@
-package p_02_Scripts;
+package p_03_Scripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
