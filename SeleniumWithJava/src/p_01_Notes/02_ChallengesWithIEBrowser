@@ -1,0 +1,9 @@
+Challenges with IE browser
+===========================================================================
+4 common challenges with IE browser:
+
+1. Zooming Setting: Can not run script until the zoom is set to 100%.
+2. Protected Mode Settings: Have some default settings for IE browser. Need to changes the settings.
+3. XPath changes in IE browser: Some xpath may changes for IE browser. That's why we can use
+   cssSelector as this locator remain same on the all browser.
+4. sendKeys performance: Take sometimes 3/4 seconds to type a single character.
