@@ -1,0 +1,87 @@
+Create XPaths
+================================================================================
+Basic Syntax
+Using And & OR
+contains()
+start-with()
+text()
+following
+Preceding
+Ansestor
+Absolute vs Relative
+
+Single Attribute
+---------------------------------------
+Syntax: //tagName[@attributeName='value']
+
+Example:
+//a [@href='https://ww.google.com']
+//input [@id="uname"]
+//input [@name='username']
+//img [@alt='sometext']
+
+
+Multiple Attributes
+---------------------------------------
+Syntax: //tagName[@attributeName1='value1'][@attributeName2='value2']
+
+Example:
+//a [@href='https://ww.google.com'][@id="uname"]
+//img [@alt='sometext'][@source='value']
+
+
+AND Operator (Multiple Attributes)
+-------------------------------------------------------------------------
+Syntax: //tagName[@attributeName1='value1' and @attributeName2='value2']
+
+Example:
+//a [@href='https://ww.google.com' and @id="uname"]
+
+
+OR Operator (Multiple Attributes)
+------------------------------------------------------------------------
+Syntax: //tagName[@attributeName1='value1' or @attributeName2='value2']
+
+Example:
+//a [@href='https://ww.google.com' or @id="uname"]
+
+
+Contains 
+------------------------------------------------------
+Syntax: //tagName[contains(@attributeName, 'value')]
+
+Example:
+//a [contains(@href, 'https://ww.google.com')]
+
+starts-with 
+------------------------------------------------------
+Syntax: //tagName[starts-with(@attributeName, 'value')]
+
+Example:
+//a [contains(@href, 'https://ww.google.com')]
+
+
+Text
+----------------------------------------------------------------------
+Syntax: //tagName[text()='value')]
+
+Example:
+//h1[text()='Secure Client Login']
+//h1[text()='Secure Client Login'][contains(@attributeName, 'value')]
+
+Following
+--------------------------------------------------------------------------------------
+Syntax: tagName[@attributeName1='value1']//following::tagName[@attributeName2='value2'
+
+Example:
+//h2[contains(@class, 'title_block')]//following::a[text()='Casual Dresses']
+//h2[contains(@class, 'title_block')]//following::a[text()='Casual Dresses'][1]
+
+
+Preceding
+-------------------------------------------
+Syntax: tagName[@attributeName1='value1']//preceding::tagName[]
+
+Example:
+//h2[contains(@class, 'title_block')]//preceding::a[]
+//h2[contains(@class, 'title_block')]//preceding::input[2]

@@ -21,6 +21,14 @@ public class C_04_AdditionalLocators {
 		//Linked Text is the Exact Text related to the hyperlink
 		//LinkText
 		driver.findElement(By.linkText("Forgot your password?")).click();
+		
+		/* How By class works internally
+		 
+		 By forpass = By.linkText("Forgot your password?");
+		 
+		 driver.findElement(forpass).click();
+		 
+		 */
 
 		Thread.sleep(2000);
 
