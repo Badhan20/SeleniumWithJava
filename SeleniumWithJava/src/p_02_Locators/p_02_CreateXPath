@@ -7,11 +7,11 @@ start-with()
 text()
 following
 Preceding
-Ansestor
+Ancestor
 Absolute vs Relative
 
 Single Attribute
----------------------------------------
+------------------------------------------
 Syntax: //tagName[@attributeName='value']
 
 Example:
@@ -22,7 +22,7 @@ Example:
 
 
 Multiple Attributes
----------------------------------------
+----------------------------------------------------------------------
 Syntax: //tagName[@attributeName1='value1'][@attributeName2='value2']
 
 Example:
@@ -53,15 +53,15 @@ Syntax: //tagName[contains(@attributeName, 'value')]
 Example:
 //a [contains(@href, 'https://ww.google.com')]
 
-starts-with 
-------------------------------------------------------
+starts-with() 
+-------------------------------------------------------
 Syntax: //tagName[starts-with(@attributeName, 'value')]
 
 Example:
 //a [contains(@href, 'https://ww.google.com')]
 
 
-Text
+Text()
 ----------------------------------------------------------------------
 Syntax: //tagName[text()='value')]
 
@@ -79,9 +79,41 @@ Example:
 
 
 Preceding
--------------------------------------------
+----------------------------------------------------------------
 Syntax: tagName[@attributeName1='value1']//preceding::tagName[]
 
 Example:
 //h2[contains(@class, 'title_block')]//preceding::a[]
 //h2[contains(@class, 'title_block')]//preceding::input[2]
+
+
+Ancestor (Will show all the related parent/grand parent)
+---------------------------------------------------------------
+Syntax: tagName[@attributeName1='value1']//ancestor::tagName[]
+
+Example:
+//h2[contains(@class, 'title_block')]//ancestor::a[]
+//h2[contains(@class, 'title_block')]//ancestor::input[2]
+
+
+
+Absolute vs Relative
+-----------------------------------------------------------------------
+Combined Syntax: tagName[@attributeName1='value1']/tagName[1]/tagName[2]
+
+Example: //a [@href='https://ww.google.com']/div[1]/a[2]
+
+// --> Will search throughout the page
+/ --> Will start afterward
+
+Absolute Xpath: It uses Complete path from the Root Element to the desire element.
+     Example: /html/body/div[5]/div[2]/div/div[2]/div[2]/h2[1]
+
+Relative Xpath: You can simply start by referencing the element you want and go from there.
+     Example: //*[@id='answers']/h2[1]/a[1]
+     
+There are 3 differences:
+
+1. Absolute will start with / where as Relative will start with //
+2. Attributes is not used in absolute where as attribute is used in relative
+3. Absolute is a complete path where as relative is partial path

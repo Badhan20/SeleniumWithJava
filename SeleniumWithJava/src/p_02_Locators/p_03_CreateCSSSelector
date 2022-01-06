@@ -1,0 +1,72 @@
+Create CSS Selector
+================================================================================
+Difference between XPath and CSS Selector
+------------------------------------------------------------------------
+1. CSS Selector is comparatively faster than XPath.
+2. Xpath could be different on different browser but CSS Selector is same on each browser.
+3. Xpath allows bidirectional flow means can go to both ways from parent to child and child to 
+parent but CSS Selector allows only one direction which is from parent to child only.
+4. Xpath expression is represented by [//tagname[@attribute = 'value']. The css expression is 
+   represented by [tagname[attribute = 'value'].
+   
+   
+Symbol used while writing CSS selector in Selenium Webdriver
+--------------------------------------------------------------------------------------------------
+Attribute												Symbol
+----------------------------------------------------------------------------------------------
+ID									#		
+Class								.
+Single Attribute					tagName[AttributeName='value']
+Multiple Attribute					tagName[AttributeName1='value1'][AttributeName2='value2']
+Contains							*							
+Starts-with							^
+Ends-with							$
+
+
+ID
+------------------------------------------
+Syntax:tagName#ID
+
+Example: input#txtUsername
+
+
+Class
+------------------------------------------
+Syntax:tagName.ID
+
+Example: span.form-hint
+
+
+Single Attribute
+--------------------------------------------
+Syntax: tagName[AttributeName='value']
+
+Example: input[name='txtUsername']
+
+
+Multiple Attribute
+-------------------------------------------------------------------
+Syntax: tagName[AttributeName1='value1'][AttributeName2='value2']
+
+Example: input[name='txtUsername'][id='txtUsername']
+
+
+Contains
+--------------------------------------------
+Syntax: tagName[AttributeName*='value']
+
+Example: input[name*='txtUsername']
+
+
+Starts-with
+--------------------------------------------
+Syntax: tagName[AttributeName^='value']
+
+Example: input[name^='txtUsername']
+
+
+Ends-with
+--------------------------------------------
+Syntax: tagName[AttributeName$='value']
+
+Example: input[name$='txtUsername']
