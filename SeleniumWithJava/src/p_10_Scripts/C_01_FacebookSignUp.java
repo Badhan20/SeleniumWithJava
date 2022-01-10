@@ -1,4 +1,4 @@
-package p_03_Scripts;
+package p_10_Scripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

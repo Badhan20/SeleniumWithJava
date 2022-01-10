@@ -1,13 +1,11 @@
 00_Outline
 -------------------------------------------------------------------------
--- Locators in Selenium
--- Form WebElement: TextBox, Submit Button, sendkeys(), click()
--- Select CheckBox and Radio Button
--- Click on Image
--- Select Value from DropDown
--- Locate Elements by Link Text & Partial Link Text
--- Mouse Click & Keyboard Event: Action Class
--- Upload & Download a File
+-- Locators in Selenium (Done)
+-- Form WebElement: TextBox, Submit Button, sendkeys(), click() (Done)
+-- Select CheckBox and Radio Button (Done)
+-- Click on Image (Done)
+-- Select Value from DropDown (Done)
+-- Locate Elements by Link Text & Partial Link Text (Done)
 -- Alert & Popup Window Handling
 -- Handle Web Table
 -- Handling Dynamic Web Tables
@@ -19,13 +17,15 @@
 -- How to Take Screenshot
 -- Robot Class
 -- JavaScriptExecutor 
--- Drag and Drop
+-- Drag and Drop 
 -- Scroll Down or UP
 -- Double click and Right Click
 -- Implicit, Explicit, & Fluent Wait
 -- Verify Element Present, wait For, and Wait
 -- Store Variables, Echo, Alert, PopUp handling in Selenium
 -- Double click and Right Click
+-- Mouse Click & Keyboard Event: Action Class
+-- Upload & Download a File
 -- Chrome Options & Desiredcapabilities: AdBlocker, Incognito, Headless
 -- Handle SSL Certificate
 -- Handle AJAX Call
