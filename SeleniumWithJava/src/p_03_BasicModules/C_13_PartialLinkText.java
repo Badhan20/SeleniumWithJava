@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class C_10_LinkText {
+public class C_13_PartialLinkText {
 
 	public static void main(String[] args) {
 
@@ -18,7 +18,7 @@ public class C_10_LinkText {
 
 		driver.manage().window().maximize();
 
-		driver.findElement(By.linkText("Forgotten password?")).click();
+		driver.findElement(By.partialLinkText("password?")).click();
 
 		String title = driver.getTitle();
 
