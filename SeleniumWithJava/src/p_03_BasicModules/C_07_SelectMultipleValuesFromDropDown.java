@@ -3,8 +3,9 @@ package p_03_BasicModules;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
-public class C_07_PartialLinkText {
+public class C_07_SelectMultipleValuesFromDropDown {
 
 	public static void main(String[] args) {
 
@@ -12,27 +13,20 @@ public class C_07_PartialLinkText {
 
 		WebDriver driver = new ChromeDriver();
 
-		String baseURL= "https://www.facebook.com/";
+		String baseURL= "http://output.jsbin.com/osebed/2";
 
 		driver.get(baseURL);
 
 		driver.manage().window().maximize();
 
-		driver.findElement(By.partialLinkText("password?")).click();
+		Select selMul = new Select(driver.findElement(By.id("fruits")));
 
-		String title = driver.getTitle();
-
-		if(title.equalsIgnoreCase("Forgotten Password | Can't Log In | Facebook")) {
-			
-			System.out.println("Link clicked successfully");
-		}
-
-		else {
-			
-			System.out.println("Link not clicked");
-		}
-
-
+		selMul.selectByIndex(0);
+		
+		selMul.selectByValue("apple");
+		
+		selMul.selectByVisibleText("Orange");
+		
 		System.out.println("Congratulations! Test Passed.");
 
 		driver.close();

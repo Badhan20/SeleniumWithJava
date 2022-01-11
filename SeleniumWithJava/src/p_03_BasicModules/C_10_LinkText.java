@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class C_06_LinkText {
+public class C_10_LinkText {
 
 	public static void main(String[] args) {
 
