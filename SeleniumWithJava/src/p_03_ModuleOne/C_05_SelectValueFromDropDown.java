@@ -1,4 +1,4 @@
-package p_03_BasicModules;
+package p_03_ModuleOne;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

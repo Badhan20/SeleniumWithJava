@@ -1,34 +1,42 @@
 00_Outline
 -------------------------------------------------------------------------
+Module One:
 -- Locators in Selenium (Done)
 -- Form WebElement: TextBox, Submit Button, sendkeys(), click() (Done)
 -- Select CheckBox and Radio Button (Done)
 -- Click on Image (Done)
 -- Select Value from DropDown (Done)
 -- Locate Elements by Link Text & Partial Link Text (Done)
--- Alert & Popup Window Handling
+
+Module Two:
+-- Refresh Page using Selenium Webdriver
+-- Select Date from DatePicker/Calendar
 -- Handle Web Table
 -- Handling Dynamic Web Tables
--- Desired Capabilities
+-- JavaScriptExecutor
+-- Double click and Right Click
+-- Drag and Drop
+-- Scroll Down or UP
+-- Mouse Click & Keyboard Event: Action Class
+
+
+Module Three:
 -- Verify Tooltip
 -- Find All/Broken links
--- Select Date from DatePicker/Calendar
--- Handling iFrames
 -- How to Take Screenshot
+-- Upload & Download a File
 -- Robot Class
--- JavaScriptExecutor 
--- Drag and Drop 
--- Scroll Down or UP
--- Double click and Right Click
 -- Implicit, Explicit, & Fluent Wait
+-- Alert & Popup Window Handling
+-- Handling iFrames
+-- Desired Capabilities
+-- Chrome Options & Desiredcapabilities: AdBlocker, Incognito, Headless
 -- Verify Element Present, wait For, and Wait
 -- Store Variables, Echo, Alert, PopUp handling in Selenium
--- Double click and Right Click
--- Mouse Click & Keyboard Event: Action Class
--- Upload & Download a File
--- Chrome Options & Desiredcapabilities: AdBlocker, Incognito, Headless
+
+
+Module Four:
 -- Handle SSL Certificate
 -- Handle AJAX Call
--- Refresh Page using Selenium Webdriver
 -- Headless Browser Testing
 -- Database Testing
