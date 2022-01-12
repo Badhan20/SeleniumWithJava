@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class C_01_FacebookSignUp {
+public class C_04_FacebookSignUp {
 
 	public static void main(String[] args) throws InterruptedException {
 

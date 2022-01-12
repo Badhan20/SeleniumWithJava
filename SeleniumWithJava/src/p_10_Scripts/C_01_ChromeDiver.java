@@ -1,4 +1,4 @@
-package p_01_Notes;
+package p_10_Scripts;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
