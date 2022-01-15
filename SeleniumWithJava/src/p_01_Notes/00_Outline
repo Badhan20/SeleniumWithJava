@@ -9,8 +9,8 @@ Module One:
 -- Locate Elements by Link Text & Partial Link Text (Done)
 
 Module Two:
--- Refresh Page using Selenium Webdriver
--- Select Date from DatePicker/Calendar
+-- Refresh Page using Selenium Webdriver (Done)
+-- Select Date from DatePicker/Calendar (Done)
 -- Handle Web Table
 -- Handling Dynamic Web Tables
 -- JavaScriptExecutor
