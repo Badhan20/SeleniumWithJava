@@ -11,8 +11,8 @@ Module One:
 Module Two:
 -- Refresh Page using Selenium Webdriver (Done)
 -- Select Date from DatePicker/Calendar (Done)
--- Handle Web Table
--- Handling Dynamic Web Tables
+-- Handle Web Table (Done)
+-- Handling Dynamic Web Tables (Done)
 -- JavaScriptExecutor
 -- Double click and Right Click
 -- Drag and Drop
