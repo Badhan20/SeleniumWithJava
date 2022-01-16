@@ -13,11 +13,16 @@ Module Two:
 -- Select Date from DatePicker/Calendar (Done)
 -- Handle Web Table (Done)
 -- Handling Dynamic Web Tables (Done)
--- JavaScriptExecutor
+-- JavaScriptExecutor (Done)
+-- JavaScriptExecutor - Send Keys (Done)
+-- JavaScriptExecutor - Click (Done)
+-- JavaScriptExecutor - Scroll Down or Up (Done)
+-- JavaScriptExecutor - Scroll for Element (Done)
+-- JavaScriptExecutor - Highlight Element (Done)
+-- Action Class
 -- Double click and Right Click
 -- Drag and Drop
--- Scroll Down or UP
--- Mouse Click & Keyboard Event: Action Class
+-- Mouse Click & Keyboard Event
 
 
 Module Three:
