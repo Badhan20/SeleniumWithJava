@@ -8,6 +8,7 @@ Module One:
 -- Select Value from DropDown (Done)
 -- Locate Elements by Link Text & Partial Link Text (Done)
 
+
 Module Two:
 -- Refresh Page using Selenium Webdriver (Done)
 -- Select Date from DatePicker/Calendar (Done)
@@ -27,21 +28,26 @@ Module Two:
 
 
 Module Three:
--- Verify Tooltip
--- Find All/Broken links
+-- Handle Alert
+-- Handle Frames
+-- Handle Multiple Windows
+-- Handle Multiple Tabs
+-- Robot Class
 -- How to Take Screenshot
 -- Upload & Download a File
--- Robot Class
+
+
+Module Four:
 -- Implicit, Explicit, & Fluent Wait
--- Alert & Popup Window Handling
--- Handling iFrames
+-- Verify Tooltip
+-- Find All/Broken links
 -- Desired Capabilities
 -- Chrome Options & Desiredcapabilities: AdBlocker, Incognito, Headless
 -- Verify Element Present, wait For, and Wait
 -- Store Variables, Echo, Alert, PopUp handling in Selenium
 
 
-Module Four:
+Module Five:
 -- Handle SSL Certificate
 -- Handle AJAX Call
 -- Headless Browser Testing

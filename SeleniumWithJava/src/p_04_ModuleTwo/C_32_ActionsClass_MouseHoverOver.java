@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class C_32_ActionsClass_DragAndDrop_MouseHoverOver {
+public class C_32_ActionsClass_MouseHoverOver {
 
 	public static void main(String[] args) throws InterruptedException {
 
