@@ -19,10 +19,11 @@ Module Two:
 -- JavaScriptExecutor - Scroll Down or Up (Done)
 -- JavaScriptExecutor - Scroll for Element (Done)
 -- JavaScriptExecutor - Highlight Element (Done)
--- Action Class
--- Double click and Right Click
--- Drag and Drop
--- Mouse Click & Keyboard Event
+-- Action Class (Done)
+-- Action Class - Double click and Right Click (Done)
+-- Action Class - Drag and Drop (Done)
+-- Action Class - Mouse Hover (Done)
+-- Action Class - Keyboard Events (Done)
 
 
 Module Three:
