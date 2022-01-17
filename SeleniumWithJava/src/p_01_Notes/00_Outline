@@ -28,13 +28,15 @@ Module Two:
 
 
 Module Three:
--- Handle Alert
--- Handle Frames
--- Handle Multiple Windows
--- Handle Multiple Tabs
+-- Handle Alert (Done)
+-- Handle Basic Authentication (Done)
+-- Handle Frames (Done)
+-- Handle Multiple Windows (Done)
+-- Handle Multiple Tabs (Done)
 -- Robot Class
 -- How to Take Screenshot
--- Upload & Download a File
+-- Upload a File
+-- Download a File
 
 
 Module Four:
