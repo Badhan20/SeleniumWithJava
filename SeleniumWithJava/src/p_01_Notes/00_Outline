@@ -33,9 +33,9 @@ Module Three:
 -- Handle Frames (Done)
 -- Handle Multiple Windows (Done)
 -- Handle Multiple Tabs (Done)
--- Robot Class
--- How to Take Screenshot
--- Upload a File
+-- Robot Class (Done)
+-- Take Screenshot (Done)
+-- Upload a File (Done)
 -- Download a File
 
 
@@ -54,3 +54,14 @@ Module Five:
 -- Handle AJAX Call
 -- Headless Browser Testing
 -- Database Testing
+
+***
+-- Download Files in Chrome & Firefox using Web Driver
+-- Encode Password
+-- Decode Password
+-- Automate BarCode
+-- Automate QRCode
+-- Record Test Execution Video
+-- Automate OTP number
+-- Read/write data from Excel
+-- Automate Complex Graphs
