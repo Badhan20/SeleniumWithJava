@@ -41,11 +41,11 @@ Module Three:
 
 
 Module Four:
--- Implicit Wait 
--- Explicit Wait
--- Fluent Wait
--- Page Load Timeout
--- Script Load Timeout
+-- Page Load Timeout (Done)
+-- Set Script Timeout (Done)
+-- Implicit Wait (Done)
+-- Explicit Wait (Done)
+-- Fluent Wait (Done)
 -- Desired Capabilities
 -- Chrome Options & Desiredcapabilities: AdBlocker, Incognito, Headless
 -- Verify Element Present, wait For, and Wait
