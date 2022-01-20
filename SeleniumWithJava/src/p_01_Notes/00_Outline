@@ -49,16 +49,16 @@ Module Four:
 -- Desired Capabilities (Done)
 -- ChromeOptions (Done)
 -- ChromeOptions - Handle Untrusted/SSL Certificate (Done)
--- Verify Element Present, wait For, and Wait
--- Verify Tooltip
--- Find All/Broken links
+-- Verify Tooltip/Help Text/Toast Message (Done)
+
 
 Module Five:
--- Compare Ascending and Descending order of Drop-Down
+-- Verify Broken Links
 -- Verify Error Message
 -- Handle Bootstrap Login or Popup
 -- Handle Element Not clickable
 -- Handle Hidden Elements
+-- Compare Ascending and Descending order of Drop-Down
 
 
 Module Six:
@@ -75,6 +75,7 @@ Module Six:
 
 Module Seven:
 -- Handle AJAX Call
+-- Handle Windows Authentication
 -- Headless Browser Testing
 -- Database Testing
 -- Store Variables, Echo, Alert, PopUp handling in Selenium
