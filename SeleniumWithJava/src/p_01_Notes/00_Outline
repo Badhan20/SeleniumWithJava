@@ -46,14 +46,22 @@ Module Four:
 -- Implicit Wait (Done)
 -- Explicit Wait (Done)
 -- Fluent Wait (Done)
--- Desired Capabilities
--- Chrome Options & Desiredcapabilities: AdBlocker, Incognito, Headless
+-- Desired Capabilities (Done)
+-- ChromeOptions (Done)
+-- ChromeOptions - Handle Untrusted/SSL Certificate (Done)
 -- Verify Element Present, wait For, and Wait
 -- Verify Tooltip
 -- Find All/Broken links
 
-
 Module Five:
+-- Compare Ascending and Descending order of Drop-Down
+-- Verify Error Message
+-- Handle Bootstrap Login or Popup
+-- Handle Element Not clickable
+-- Handle Hidden Elements
+
+
+Module Six:
 -- Encode Password
 -- Decode Password
 -- Automate BarCode
@@ -65,17 +73,7 @@ Module Five:
 -- Automate Complex Graphs
 
 
-Module Six:
--- Compare Ascending and Descending order of Drop-Down
--- Verify Error Message
--- Handle Bootstrap Login or Popup
--- Handle Element Not clickable
--- Handle Hidden Elements
-
-
 Module Seven:
--- Handle Untrusted Certificate
--- Handle SSL Certificate
 -- Handle AJAX Call
 -- Headless Browser Testing
 -- Database Testing
