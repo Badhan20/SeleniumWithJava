@@ -53,9 +53,10 @@ Module Four:
 
 
 Module Five:
--- Verify Broken Links
--- Verify Error Message
--- Handle Bootstrap Login or Popup
+-- Verify Broken Links (Done)
+-- Verify Broken Images (Done)
+-- Verify Error Message (Done)
+-- Handle Bootstrap Modal Window (Done)
 -- Handle Element Not clickable
 -- Handle Hidden Elements
 -- Compare Ascending and Descending order of Drop-Down
