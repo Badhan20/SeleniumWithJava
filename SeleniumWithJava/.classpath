@@ -16,5 +16,7 @@
 			<attribute name="javadoc_location" value="https://www.selenium.dev/selenium/docs/api/java/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/BADHAN/Downloads/core-3.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BADHAN/Downloads/javase-3.3.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
