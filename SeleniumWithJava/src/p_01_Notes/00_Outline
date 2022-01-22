@@ -57,9 +57,10 @@ Module Five:
 -- Verify Broken Images (Done)
 -- Verify Error Message (Done)
 -- Handle Bootstrap Modal Window (Done)
--- Handle Element Not clickable
--- Handle Hidden Elements
--- Compare Ascending and Descending order of Drop-Down
+-- Handle Element Not clickable (Done)
+-- Handle Hidden Elements (Done)
+-- Compare Ascending order of Drop-Down (Done)
+-- Compare Descending order of Drop-Down (Done)
 
 
 Module Six:
