@@ -3,7 +3,7 @@ package p_07_ModuleFive;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import p_00_libraries.C_03_CompareAscendingOrder;
+import p_00_libraries.C_03_CompareAscendingOrderUtility;
 
 public class C_72_VerifyAscendingOrderofDropDownValues2 {
 
@@ -17,7 +17,7 @@ public class C_72_VerifyAscendingOrderofDropDownValues2 {
 
 		driver.manage().window().maximize();
 		
-		C_03_CompareAscendingOrder.CompareOrder(driver, "//select[@id='tools']");
+		C_03_CompareAscendingOrderUtility.CompareOrder(driver, "//select[@id='tools']");
 
 		Thread.sleep(3000);
 		

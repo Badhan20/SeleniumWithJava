@@ -3,9 +3,9 @@ package p_07_ModuleFive;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import p_00_libraries.C_04_CompareDescendingOrder;
+import p_00_libraries.C_04_CompareDescendingOrderUtility;
 
-public class C_73_VerifyDesscendingOrderofDropDownValues2 {
+public class C_74_VerifyDesscendingOrderofDropDownValues2 {
 
 	public static void main(String[] args) throws InterruptedException {
 
@@ -17,7 +17,7 @@ public class C_73_VerifyDesscendingOrderofDropDownValues2 {
 
 		driver.manage().window().maximize();
 		
-		C_04_CompareDescendingOrder.CompareOrder(driver, "//select[@id='tools']");
+		C_04_CompareDescendingOrderUtility.CompareOrder(driver, "//select[@id='tools']");
 		
 		Thread.sleep(3000);
 		

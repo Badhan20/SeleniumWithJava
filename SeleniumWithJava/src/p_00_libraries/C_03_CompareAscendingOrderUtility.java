@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class C_04_CompareDescendingOrder{
+public class C_03_CompareAscendingOrderUtility{
 
 	public static void CompareOrder(WebDriver driver, String xpath) {
 		List<String> actualList = new ArrayList<String>();
@@ -28,7 +28,7 @@ public class C_04_CompareDescendingOrder{
 
 		tempList.addAll(actualList);
 		
-		Collections.sort(tempList, Collections.reverseOrder());
+		Collections.sort(tempList);
 		
 		if(tempList.equals(actualList)) {
 			
