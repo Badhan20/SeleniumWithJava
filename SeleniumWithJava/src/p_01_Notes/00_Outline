@@ -74,11 +74,9 @@ Module Six:
 
 
 Module Seven:
--- Handle AJAX Call
--- Handle Windows Authentication
--- Headless Browser Testing
--- Database Testing
--- Store Variables, Echo, Alert, PopUp handling in Selenium
+-- Handle Windows Authentication (Done)
+-- Headless Browser Testing (Done)
+-- Database Testing (Done)
 
 
 Module Eight:

@@ -1,0 +1,5 @@
+WinWaitActive("This site is asking you to sign in.")
+Send("admin")
+Send("{TAB}")
+Send("admin")
+Send("{ENTER}")
