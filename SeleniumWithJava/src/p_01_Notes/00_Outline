@@ -69,10 +69,8 @@ Module Six:
 -- Automate BarCode (Done)
 -- Automate QRCode (Done)
 -- Automate Complex Graphs (Done)
--- Record Test Execution Video
--- Automate OTP number
--- Send Email
--- Read/write data from Excel
+-- Read data from Excel File (Done)
+-- Write data from Excel File (Done)
 
 
 Module Seven:

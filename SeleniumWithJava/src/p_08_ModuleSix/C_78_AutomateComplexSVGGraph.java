@@ -46,7 +46,11 @@ public class C_78_AutomateComplexSVGGraph {
 			System.out.println("Bar values are= "+visibleText);
 		}
 
-		//System.out.println("Congratulations! Test case passed.");
+		System.out.println("Congratulations! Test case passed.");
+		
+		Thread.sleep(2000);
+		
+		driver.close();
 
 	}
 
