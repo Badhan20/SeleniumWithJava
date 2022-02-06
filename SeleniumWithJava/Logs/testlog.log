@@ -1,0 +1,12 @@
+2022-02-07 00:53:06,857 - C_88_Log4j -INFO - URL opened.
+2022-02-07 00:53:06,996 - C_88_Log4j -INFO - Browser maximized.
+2022-02-07 00:53:07,115 - C_88_Log4j -INFO - Radio button clicked.
+2022-02-07 00:53:10,213 - C_88_Log4j -INFO - Wait for 3 seconds.
+2022-02-07 00:54:51,297 - C_88_Log4j -INFO - URL opened.
+2022-02-07 00:54:51,431 - C_88_Log4j -INFO - Browser maximized.
+2022-02-07 00:54:51,525 - C_88_Log4j -INFO - Radio button clicked.
+2022-02-07 00:54:51,527 - C_88_Log4j -INFO - Clicked message shown.
+2022-02-07 00:54:51,677 - C_88_Log4j -INFO - Checkbox selected.
+2022-02-07 00:54:51,690 - C_88_Log4j -INFO - Toggle On is shown.
+2022-02-07 00:54:51,691 - C_88_Log4j -INFO - Pass message shown.
+2022-02-07 00:54:54,703 - C_88_Log4j -INFO - Wait for 3 seconds.

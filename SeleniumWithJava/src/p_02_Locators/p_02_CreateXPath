@@ -58,7 +58,7 @@ starts-with()
 Syntax: //tagName[starts-with(@attributeName, 'value')]
 
 Example:
-//a [contains(@href, 'https://ww.google.com')]
+//a [starts-with(@href, 'https://ww.google.com')]
 
 
 Text()
